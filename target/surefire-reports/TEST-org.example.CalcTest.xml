@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.09" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.03" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="D:\IDEA\JDK\bin"/>
-    <property name="sun.java.command" value="C:\Users\贾源争\AppData\Local\Temp\surefire3405224941374898109\surefirebooter17083283159316224685.jar C:\Users\贾源争\AppData\Local\Temp\surefire3405224941374898109 2023-10-07T18-03-59_585-jvmRun1 surefire6316307968940701334tmp surefire_010368686933706805125tmp"/>
+    <property name="sun.java.command" value="C:\Users\贾源争\AppData\Local\Temp\surefire13408008500821556671\surefirebooter1991172901142325827.jar C:\Users\贾源争\AppData\Local\Temp\surefire13408008500821556671 2023-10-07T18-08-31_759-jvmRun1 surefire5034469722176305887tmp surefire_011641095088585474962tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\159251\T4\tutorial4\target\test-classes;E:\159251\T4\tutorial4\target\classes;e:\159251\apache-maven-3.6.3\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;e:\159251\apache-maven-3.6.3\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;e:\159251\apache-maven-3.6.3\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;e:\159251\apache-maven-3.6.3\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;e:\159251\apache-maven-3.6.3\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;e:\159251\apache-maven-3.6.3\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;e:\159251\apache-maven-3.6.3\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;e:\159251\apache-maven-3.6.3\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\贾源争\AppData\Local\Temp\surefire3405224941374898109\surefirebooter17083283159316224685.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\贾源争\AppData\Local\Temp\surefire13408008500821556671\surefirebooter1991172901142325827.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.1+10-21"/>
@@ -58,10 +58,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="testsub" classname="org.example.CalcTest" time="0.063">
-    <failure message="expected: &lt;2&gt; but was: &lt;8&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <8>
-	at org.example.CalcTest.testsub(CalcTest.java:15)
-]]></failure>
-  </testcase>
-  <testcase name="testAddition" classname="org.example.CalcTest" time="0.002"/>
+  <testcase name="testsub" classname="org.example.CalcTest" time="0.016"/>
+  <testcase name="testAddition" classname="org.example.CalcTest" time="0.003"/>
 </testsuite>
